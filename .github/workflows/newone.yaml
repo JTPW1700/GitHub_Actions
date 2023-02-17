@@ -1,5 +1,8 @@
-name: Output F
-on: workflow_dispatch
+name: Output O
+on:
+  pull_request:
+    types: [opened, synchronize]
+  workflow_dispatch:
 jobs:
   show_info:
     runs-on: ubuntu-latest

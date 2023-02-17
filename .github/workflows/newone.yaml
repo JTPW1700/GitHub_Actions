@@ -1,4 +1,4 @@
-name: Output Information
+name: Output O
 on:
   pull_request:
     types: [opened, synchronize]

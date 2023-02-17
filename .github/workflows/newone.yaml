@@ -4,3 +4,8 @@ on:
     types: [opened, synchronize]
   workflow_dispatch:
 jobs:
+  show_info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output 'github' Context
+        run: echo "${{ toJSON( github ) }}"

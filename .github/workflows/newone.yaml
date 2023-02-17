@@ -1,0 +1,6 @@
+name: Output Information
+on:
+  pull_request:
+    types: [opened, synchronize]
+  workflow_dispatch:
+jobs:

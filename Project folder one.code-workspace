@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../Terraform/Project folder one"
+		},
+		{
+			"path": "../docker"
+		}
+	],
+	"settings": {}
+}
